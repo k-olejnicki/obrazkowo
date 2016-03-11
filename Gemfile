@@ -14,6 +14,8 @@ gem 'guard'
 gem 'guard-livereload'
 gem 'paperclip', '~>4.3.0'
 gem 'paperclip-dropbox', '>= 1.1.7'
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.4'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
