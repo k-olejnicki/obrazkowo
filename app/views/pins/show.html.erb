@@ -4,6 +4,7 @@
   <strong>Opis:</strong>
   <%= @pin.description %>
 </p>
-
-<%= link_to 'Edycja', edit_pin_path(@pin) %> |
+  <% if @pin.user == current_user %>
+    <%= link_to 'Edycja', edit_pin_path(@pin) %> |
+  <% end%>
 <%= link_to 'Wstecz', pins_path %>
