@@ -13,6 +13,7 @@ gem 'devise', '~> 3.5.2'
 gem 'guard'
 gem 'guard-livereload'
 gem 'paperclip', '~>4.3.0'
+gem 'paperclip-dropbox', '>= 1.1.7'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
