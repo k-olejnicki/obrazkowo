@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Opis:</strong>
+  <%= @pin.description %>
+</p>
+
+<%= link_to 'Edycja', edit_pin_path(@pin) %> |
+<%= link_to 'Wstecz', pins_path %>
