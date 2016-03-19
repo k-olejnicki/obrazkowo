@@ -10,7 +10,9 @@
       </ul>
     </div>
   <% end %>
-
+    <div class="panel panel-default">
+      <div class="panel-heading"><h1><%=yield(:title)%></h1></div>
+      <div class="panel-body">
   <div class="field">
     <%= f.label :description, "Opis" %><br>
     <%= f.text_field :description %>
@@ -23,3 +25,6 @@
     <%= f.submit "Utwórz pin" %>
   </div>
 <% end %>
+</div>
+<div class="panel-footer"></div>
+</div>
